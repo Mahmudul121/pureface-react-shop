@@ -5,23 +5,19 @@ import { FaLink } from "@react-icons/all-files/fa/FaLink";
 import { LinkProps } from "next/link";
 import { useTranslation } from "next-i18next";
 import React from "react";
-// import { filterBrandImages } from "@lib/filter-brands";
-import { Attachment } from "@framework/types";
 
 interface Props {
   item: any;
   variant?: "rounded" | "circle" | "modern" | "elegant";
-  // size?: "small" | "medium" | "big";
   effectActive?: boolean;
   effectPosition?: "imageOnly" | "fullBody";
   href: LinkProps["href"];
-  image?: Attachment | null;
+  image?: any;
 }
 
 const Card: React.FC<Props> = ({
   item,
   variant = "circle",
-  // size = "small",
   effectActive = false,
   effectPosition = "imageOnly",
   href,
@@ -47,8 +43,6 @@ const Card: React.FC<Props> = ({
 
   const placeholderImage = `/assets/placeholder/card-${size}.svg`;
   const { t } = useTranslation("common");
-
-  // const image = item?.image?.original ?? filterBrandImages(item?.images, "slider-layout")?.image?.[0]?.original ?? placeholderImage;
 
   return (
     <Link
@@ -78,10 +72,9 @@ const Card: React.FC<Props> = ({
       >
         <div className="flex">
           <Image
-            src={image?.original ?? placeholderImage}
+            src={image ?? placeholderImage}
             alt={name || t("text-card-thumbnail")}
             width={imageSize}
-            //height={imageSize}
             height={230}
             quality={100}
             className={`${
