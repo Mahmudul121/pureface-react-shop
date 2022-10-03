@@ -1621,7 +1621,7 @@ export const topBrands = [
     slug: "top-brand-1",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/top-brands/top-brand-1.png",
         width: 470,
         height: 232,
       },
@@ -1639,7 +1639,7 @@ export const topBrands = [
     slug: "top-brand-2",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/top-brands/top-brand-2.png",
         width: 470,
         height: 232,
       },
@@ -1657,7 +1657,7 @@ export const topBrands = [
     slug: "top-brand-3",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/top-brands/top-brand-3.png",
         width: 470,
         height: 232,
       },
@@ -1675,7 +1675,7 @@ export const topBrands = [
     slug: "top-brand-4",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/top-brands/top-brand-2.png",
         width: 470,
         height: 232,
       },
@@ -1698,7 +1698,7 @@ export const purefaceBanners = [
     slug: "at-pureface-1",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/only-art-pureface/pureface-1.png",
         width: 470,
         height: 232,
       },
@@ -1716,7 +1716,7 @@ export const purefaceBanners = [
     slug: "at-pureface-2",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/only-art-pureface/pureface-2.png",
         width: 470,
         height: 232,
       },
@@ -1734,7 +1734,7 @@ export const purefaceBanners = [
     slug: "at-pureface-3",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/only-art-pureface/pureface-3.png",
         width: 232,
         height: 232,
       },
@@ -1752,7 +1752,7 @@ export const purefaceBanners = [
     slug: "at-pureface-4",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/only-art-pureface/pureface-4.png",
         width: 232,
         height: 232,
       },
@@ -1770,7 +1770,7 @@ export const purefaceBanners = [
     slug: "at-pureface-5",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/only-art-pureface/pureface-5.png",
         width: 232,
         height: 232,
       },
@@ -1788,7 +1788,7 @@ export const purefaceBanners = [
     slug: "at-pureface-6",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/only-art-pureface/pureface-6.png",
         width: 232,
         height: 232,
       },
@@ -1811,7 +1811,7 @@ export const trendingStoreBanner = [
     slug: "trending-store-1",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/trending-store/trending-store-1.png",
         width: 450,
         height: 150,
       },
@@ -1828,7 +1828,7 @@ export const trendingStoreBanner = [
     slug: "trending-store-2",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/trending-store/trending-store-2.png",
         width: 450,
         height: 150,
       },
@@ -1845,7 +1845,7 @@ export const trendingStoreBanner = [
     slug: "trending-store-3",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/trending-store/trending-store-3.png",
         width: 450,
         height: 150,
       },
@@ -1866,7 +1866,7 @@ export const featuredBrands = [
     slug: "featured-brand-1",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/featured-brands/featured-brand-1.png",
         width: 232,
         height: 190,
       },
@@ -1884,7 +1884,7 @@ export const featuredBrands = [
     slug: "featured-brand-2",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/featured-brands/featured-brand-2.png",
         width: 232,
         height: 190,
       },
@@ -1902,7 +1902,7 @@ export const featuredBrands = [
     slug: "featured-brand-3",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/featured-brands/featured-brand-3.png",
         width: 232,
         height: 190,
       },
@@ -1920,7 +1920,7 @@ export const featuredBrands = [
     slug: "featured-brand-4",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/featured-brands/featured-brand-4.png",
         width: 232,
         height: 190,
       },
@@ -1942,7 +1942,7 @@ export const budgetBuys = [
     slug: "budget-buy-1",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/budget-buys/budget-buy-1.png",
         width: 232,
         height: 190,
       },
@@ -1960,7 +1960,7 @@ export const budgetBuys = [
     slug: "budget-buy-2",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/budget-buys/budget-buy-2.png",
         width: 232,
         height: 190,
       },
@@ -1978,7 +1978,7 @@ export const budgetBuys = [
     slug: "budget-buy-3",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/budget-buys/budget-buy-3.png",
         width: 232,
         height: 190,
       },
@@ -1996,7 +1996,7 @@ export const budgetBuys = [
     slug: "budget-buy-4",
     image: {
       mobile: {
-        url: "",
+        url: "/assets/images/budget-buys/budget-buy-4.png",
         width: 232,
         height: 190,
       },

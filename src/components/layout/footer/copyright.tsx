@@ -7,9 +7,9 @@ const year = new Date().getFullYear();
 const Copyright = () => {
   const { t } = useTranslation("footer");
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-gray-900 text-white md:pb-0 pb-14">
       <Container>
-        <div className="flex justify-center gap-x-16 py-4">
+        <div className="flex gap-x-16 py-4 md:flex-nowrap flex-wrap md:gap-0 gap-3 md:justify-center justify-evenly">
           <a href="">Terms & Conditions</a>
           <a href="">Shipping Policy</a>
           <a href="">Cancellation Policy</a>
