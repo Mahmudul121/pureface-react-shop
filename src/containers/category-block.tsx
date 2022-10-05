@@ -112,7 +112,7 @@ const modernBreakpoints = {
 };
 
 const CategoryBlock: React.FC<CategoriesProps> = ({
-  className = "mb-10 md:mb-11 lg:mb-12 xl:mb-14 lg:pb-1 xl:pb-0",
+  className = "mb-5 md:mb-7 lg:pb-1 xl:pb-0",
   //   sectionHeading,
   variant = "rounded",
   effectPosition = "imageOnly",

@@ -49,7 +49,7 @@ const Deliver: React.FC = () => {
         </div>
         <div className="ml-4">
           <h4 className="underline underline-offset-8 decoration-2 pb-3 text-2xl">
-            20+ Brands
+            Best Prices
           </h4>
           <p>2000+ Products</p>
         </div>

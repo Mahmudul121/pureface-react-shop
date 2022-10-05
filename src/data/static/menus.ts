@@ -623,16 +623,16 @@ export const menu = [
     ]
     */
   },
-  {
-    id: 4,
-    path: "/",
-    label: "PF Bazar"
-  },
-  {
-    id: 5,
-    path: "/",
-    label: "PF Connect"
-  },
+  // {
+  //   id: 4,
+  //   path: "/",
+  //   label: "PF Bazar"
+  // },
+  // {
+  //   id: 5,
+  //   path: "/",
+  //   label: "PF Connect"
+  // },
   {
     id: 6,
     path: "/",

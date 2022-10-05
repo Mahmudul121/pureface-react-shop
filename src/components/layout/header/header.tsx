@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import SearchIcon from "@components/icons/search-icon";
-import ShopIcon from "@components/icons/shop-icon";
-import AppIcon from "@components/icons/app-icon";
-import GiftCardIcon from "@components/icons/gift-card-icon";
-import HelpIcon from "@components/icons/help-icon";
+// import ShopIcon from "@components/icons/shop-icon";
+// import AppIcon from "@components/icons/app-icon";
+// import GiftCardIcon from "@components/icons/gift-card-icon";
+// import HelpIcon from "@components/icons/help-icon";
 import Logo from "@components/ui/logo";
 import { useUI } from "@contexts/ui.context";
 import { ROUTES } from "@lib/routes";
@@ -50,9 +50,9 @@ const Header: React.FC<Props> = ({ variant = "default" }) => {
     >
       <div className="fixed top-0 w-full bg-gray-900 text-white p-3 md:flex justify-between ">
         <div>
-          <p className="m-0 md:px-3 px-0">Delivering all over Pakistan</p>
+          <p className="m-0 md:px-3 px-0">Free Delivery above Rs. 2000</p>
         </div>
-        <div className="flex md:flex-nowrap flex-wrap md:gap-0 gap-3 md:py-0 py-2">
+        {/* <div className="flex md:flex-nowrap flex-wrap md:gap-0 gap-3 md:py-0 py-2">
           <div className="flex items-center">
             <ShopIcon />
             <p className="m-0 px-2">Create Your Shop</p>
@@ -69,9 +69,9 @@ const Header: React.FC<Props> = ({ variant = "default" }) => {
             <HelpIcon />
             <p className="m-0 px-2">Help</p>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="innerSticky text-gray-700 body-font fixed md:top-12 sm:top-20 top-28 bg-white w-full h-16 sm:h-20 lg:h-20 z-20 transition duration-200 ease-in-out">
+      <div className="innerSticky text-gray-700 body-font fixed md:top-12 top-12 bg-white w-full h-16 sm:h-20 lg:h-20 z-20 transition duration-200 ease-in-out">
         <div className="flex items-center justify-center mx-auto max-w-[1920px] h-full w-full  ltr:pl-4 ltr:lg:pl-6 ltr:pr-4 ltr:lg:pr-6 rtl:pr-4 rtl:lg:pr-6 rtl:pl-4 rtl:lg:pl-6 ">
           <button
             aria-label="Menu"

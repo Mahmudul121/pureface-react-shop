@@ -5,7 +5,8 @@ import Alert from "@components/ui/alert";
 import { useProductsQuery } from "@framework/products/products.query";
 import { Product } from "@framework/types";
 import { siteSettings } from "@settings/site.settings";
-import { useTranslation } from "next-i18next";0
+import { useTranslation } from "next-i18next";
+0;
 import isEmpty from "lodash/isEmpty";
 import NotFoundItem from "@components/404/not-found-item";
 import Carousel from "@components/ui/carousel/carousel";
@@ -44,7 +45,7 @@ const breakpoints = {
 
 const ProductsFlashSaleBlock: React.FC<ProductsProps> = ({
   sectionHeading = "text-best-sellers",
-  className = "mb-12 md:mb-14 xl:mb-16",
+  className = "mb-5 md:mb-7",
   variant = "default",
   limit = 10,
 }) => {
@@ -63,7 +64,7 @@ const ProductsFlashSaleBlock: React.FC<ProductsProps> = ({
   if (!loading && isEmpty(products?.data)) {
     return <NotFoundItem text={t("text-no-flash-products-found")} />;
   }
-  
+
   return (
     <div
       className={`${className} ${

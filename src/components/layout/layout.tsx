@@ -9,7 +9,7 @@ const SiteLayout: React.FC = ({ children }) => {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main
-        className="relative flex-grow md:mt-14 mt-28"
+        className="relative flex-grow md:mt-14 mt-12"
         style={{
           //   marginTop: "3.7rem",
           minHeight: "-webkit-fill-available",

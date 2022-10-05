@@ -64,11 +64,7 @@ const Card: React.FC<Props> = ({
           (["rounded", "modern", "elegant"].includes(variant) &&
             "rounded-md") ||
           (variant === "circle" && "rounded-full")
-        } ${
-          variant !== "modern"
-            ? " mb-3.5 md:mb-4 lg:mb-5 xl:mb-6"
-            : " xl:mb-8 md:mb-4"
-        }`}
+        } ${variant !== "modern" ? " " : " "}`}
       >
         <div className="flex">
           <Image

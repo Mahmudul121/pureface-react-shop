@@ -31,22 +31,20 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <AppIcon />
               <p className="pl-1">Experience the PureFace mobile app</p>
-            </div>
+            </div> */}
             <div></div>
           </div>
           <div>
             <div className="flex items-center">
               <PhoneIcon />
-              <p className="pl-1">
-                For any help you may call us at <br /> 068 12345678
-              </p>
+              <p className="pl-1">Contact us on whatsapp +923034457258</p>
             </div>
-            <div className="pt-3">
+            {/* <div className="pt-3">
               <h4>(Mon to Sat, 8 am to 6 pm)</h4>
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>

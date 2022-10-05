@@ -9,7 +9,7 @@ const Copyright = () => {
   return (
     <div className="bg-gray-900 text-white md:pb-0 pb-14">
       <Container>
-        <div className="flex gap-x-16 py-4 md:flex-nowrap flex-wrap md:gap-0 gap-3 md:justify-center justify-evenly">
+        <div className="flex gap-x-16 py-4 md:flex-nowrap flex-wrap md:gap-16 gap-3 md:justify-center justify-evenly">
           <a href="">Terms & Conditions</a>
           <a href="">Shipping Policy</a>
           <a href="">Cancellation Policy</a>
